@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <na>
+        <a href=./index.html>HOME</a>
+    </na> <hr color="green">
+    <form> <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"> <hr>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"> <hr>
+        <label for="usuário">Usuário:</label>
+        <input type="usuário" id="usuário" name="usuário"> <hr>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"> <hr>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"> <hr>
+        <input type="button" value="Clique aqui"> <hr>
+        <input type="checkbox" id="aceito" name="aceito">
+        <label for="aceito">Aceito os termos de uso</label> <hr>
+        <input type="radio" id="masculino" name="sexo" value="m">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="sexo" value="f">
+        <label for="feminino">Feminino</label> <hr>
+        <select name="estado" id="estado">
+            <option value="ba">Bahia</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+        </select> <hr>
+        <p for="mensagem">Escreva o motivo:</p>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea> 
+        <input type="file"> <hr>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button> <hr>
+        <input type="number" max="10" min="0" step="2" value="0">
+        <input type="color" value="#000000">
+        <input type="date" value="2020-08-01">
+        
+    </form>
+</body>
+</html>
