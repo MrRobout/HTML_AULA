@@ -1,0 +1,30 @@
+*{box-sizing: border-box;
+    margin: 5;
+    padding: 0;
+    }
+    header .containers{display: flex;}
+    header{background-color: #333; color: white; padding: 16px 0;}
+    .articles article img{ height: 240px; }
+
+    .articles article{width: 30%;}
+    .articles{display: flex; flex-wrap: wrap; justify-content: space-between;}
+    li{ display: inline;font-family: Arial, Helvetica, sans-serif;font-weight: bold;}
+    .containers{ width: 1200px;margin: 0 auto;}
+    section{padding: 16px 0} 
+    section h2, .articles article {margin-bottom: 16px 0;}
+    .articles article h3 {margin-top: 8px;margin-bottom: 8px;}
+    header li a { color: white; text-decoration: none;margin-left: 16;}
+    .articles article p, article a{font-family: Arial, Helvetica, sans-serif;}
+    .articles article a{background-color:brown;color: white;padding: 8px;display: inline-block;
+    text-decoration: none;font-weight: bold;margin-top: 8px;}
+    .articles article h3{font-size: 24px;}
+    section h2{font-size: 32px;}
+    .articles article a:hover{text-decoration: underline;}
+
+    #historia{background-color:rgb(0,255, 0, 0.1)}
+    #historia .articles a{background-color: green;}
+    #Legado{background-color: rgb(255, 0,0, 0.4)}
+    #Legado .articles a{background-color: red;}
+    #Proposta{background-color: rgb(0,0,255, 0.2)}
+    #Proposta .articles a{background-color: blue;}
+    #Colaboradores{background-color: rgb(255,0,0, 0.1)}
